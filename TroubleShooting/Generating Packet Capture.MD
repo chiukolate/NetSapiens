@@ -13,7 +13,7 @@ Root access is needed to run tcpdump, hence the addition of sudo in front of the
 
 Examples
 Trace all packet at port 5060 and dump to the stdout.
-sudo tcpdump port 5060
+''sudo tcpdump port 5060''
 Trace all packets at port 1040 or port 540 on eth1 and dump to the stdout.
 sudo tcpdump -i eth1 port 1040 or port 540
 Trace all packets via any interface at port 5060 and dump details to the stdout.
